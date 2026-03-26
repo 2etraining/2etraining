@@ -327,13 +327,13 @@ export default function Formations() {
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Nous adaptons nos programmes IPC aux besoins spécifiques de votre entreprise
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block px-8 py-4 bg-white text-[#00a8ff] rounded-xl hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}
           >
             Contactez-nous
-          </a>
+          </Link>
         </div>
       </section>
     </>
