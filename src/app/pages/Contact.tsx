@@ -67,7 +67,7 @@ export default function Contact() {
                     Certifications IPC
                   </h3>
                   <p className="text-sm text-[#8892a6] leading-relaxed">
-                    Centre de formation accrédité IPC. Toutes nos formations délivrent des certifications 
+                    Centre de formation IPC. Toutes nos formations délivrent des certifications 
                     reconnues internationalement (CIS/CIT).
                   </p>
                 </div>
