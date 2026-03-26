@@ -249,10 +249,13 @@ export default function Formations() {
                       </span>
                     </div>
                   </div>
-
-                  <button className="w-full mt-4 px-6 py-3 bg-[#0a0f1e] text-white rounded-lg hover:bg-[#0a0f1e]/90 transition-all group-hover:shadow-lg">
-                    Demander un devis
-                  </button>
+                  <a
+                  href="/contact"
+                  className="w-full mt-4 px-6 py-3 bg-[#0a0f1e] text-white rounded-lg hover:bg-[#0a0f1e]/90 transition-all group-hover:shadow-lg text-center block"
+                  style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}
+                  >
+                  Demander un devis
+                </a>
                 </div>
               </div>
             ))}
