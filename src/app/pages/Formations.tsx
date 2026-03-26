@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router';
 import { Filter } from 'lucide-react';
 
 export default function Formations() {
@@ -150,7 +151,7 @@ export default function Formations() {
 
             <p className="text-xl text-[#8892a6] leading-relaxed">
               Catalogue complet des formations certifiantes aux standards IPC internationaux. 
-              Devenez CIS (Certified IPC Specialist) ou CIT (Certified IPC Trainer) avec nos programmes accrédités.
+              Devenez CIS (Certified IPC Specialist) ou CIT (Certified IPC Trainer) avec nos programmes.
             </p>
           </div>
         </div>
@@ -249,13 +250,10 @@ export default function Formations() {
                       </span>
                     </div>
                   </div>
-                  <a
-                  href="/contact"
-                  className="w-full mt-4 px-6 py-3 bg-[#0a0f1e] text-white rounded-lg hover:bg-[#0a0f1e]/90 transition-all group-hover:shadow-lg text-center block"
-                  style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}
-                  >
-                  Demander un devis
-                </a>
+
+                  <Link to="/contact" className="block w-full mt-4 px-6 py-3 bg-[#0a0f1e] text-white rounded-lg hover:bg-[#0a0f1e]/90 transition-all group-hover:shadow-lg text-center">
+                    Demander un devis
+                  </Link>
                 </div>
               </div>
             ))}
