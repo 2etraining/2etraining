@@ -192,7 +192,7 @@ export default function Layout() {
                 </li>
                 <li className="flex items-center gap-2 text-[#8892a6] text-sm">
                   <Phone className="w-4 h-4 text-[#00a8ff]" />
-                  +212 6 62 02 81 33
+                  +212 6 00 00 00 00
                 </li>
                 <li className="flex items-center gap-2 text-[#8892a6] text-sm">
                   <MapPin className="w-4 h-4 text-[#00a8ff]" />
