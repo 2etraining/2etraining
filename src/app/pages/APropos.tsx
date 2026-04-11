@@ -29,10 +29,6 @@ export default function APropos() {
             <h1 className="text-5xl lg:text-6xl mb-6 text-white leading-tight" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 800 }}>
               <span className="text-[#00e5b0]">30 ans</span> d'expertise dans l'industrie électronique/électrique
             </h1>
-            <p className="text-xl text-[#8892a6] leading-relaxed">
-              Nous préparons une présentation complète de notre centre de formation,
-              notre équipe d'experts et nos 30 ans d'expertise
-            </p>
           </div>
         </div>
       </section>
