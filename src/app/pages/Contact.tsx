@@ -55,7 +55,7 @@ export default function Contact() {
                         Localisation
                       </div>
                       <div className="text-[#8892a6] leading-relaxed">
-                        2E Training Center<br />
+                        Avenue Moulay Ismail, Résidence Volubilis<br />
                         Tanger, Maroc
                       </div>
                     </div>
