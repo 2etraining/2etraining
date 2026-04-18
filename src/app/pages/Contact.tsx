@@ -98,7 +98,7 @@ export default function Contact() {
                         name="prenom"
                         required
                         className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                        placeholder="Jean"
+      
                       />
                     </div>
 
@@ -112,7 +112,7 @@ export default function Contact() {
                         name="nom"
                         required
                         className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                        placeholder="Dupont"
+                       
                       />
                     </div>
                   </div>
@@ -128,7 +128,6 @@ export default function Contact() {
                         name="email"
                         required
                         className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                        placeholder="jean.dupont@entreprise.fr"
                       />
                     </div>
 
@@ -141,7 +140,6 @@ export default function Contact() {
                         id="telephone"
                         name="telephone"
                         className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                        placeholder="06 12 34 56 78"
                       />
                     </div>
                   </div>
@@ -155,7 +153,6 @@ export default function Contact() {
                       id="entreprise"
                       name="entreprise"
                       className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                      placeholder="Nom de votre entreprise"
                     />
                   </div>
 
@@ -169,7 +166,6 @@ export default function Contact() {
                       name="participants"
                       min="1"
                       className="w-full px-4 py-3 bg-[#f4f7fb] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00a8ff] focus:border-transparent transition-all"
-                      placeholder="Ex: 5"
                     />
                   </div>
 
