@@ -188,7 +188,7 @@ export default function Layout() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-2 text-[#8892a6] text-sm">
                   <Mail className="w-4 h-4 text-[#00a8ff]" />
-                  trainer@2e-training.com
+                  contact@2e-training.com
                 </li>
                 <li className="flex items-center gap-2 text-[#8892a6] text-sm">
                   <Phone className="w-4 h-4 text-[#00a8ff]" />
