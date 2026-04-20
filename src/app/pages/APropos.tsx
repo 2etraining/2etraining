@@ -2,7 +2,7 @@ import { Users, BookOpen, Award, Target, TrendingUp, Heart } from 'lucide-react'
 
 export default function APropos() {
   // 🔧 Remplacez par l'URL de votre fichier MP4
-  const VIDEO_URL = '/2E TRAINING.mp4';
+  const VIDEO_URL = '/2E-TRAINING.mp4';
   const VIDEO_POSTER = ''; // optionnel : URL d'une image de couverture (thumbnail)
 
   return (
@@ -52,18 +52,16 @@ export default function APropos() {
           </div>
 
           {/* Video Player */}
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-[#00a8ff]/20"
-            style={{ paddingBottom: '56.25%', height: 0 }}
-          >
-            <video
-              controls
-              poster={VIDEO_POSTER}
-              className="absolute inset-0 w-full h-full"
-              style={{ objectFit: 'cover' }}
-            >
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-[#00a8ff]/20 w-full aspect-video">
+              <video
+                    controls
+                    poster={VIDEO_POSTER}
+                    className="w-full h-full"
+                    style={{ objectFit: 'contain' }}
+                    >
               <source src={VIDEO_URL} type="video/mp4" />
-              Votre navigateur ne supporte pas la lecture vidéo.
-            </video>
+                  Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
           </div>
 
           {/* Ligne décorative */}
