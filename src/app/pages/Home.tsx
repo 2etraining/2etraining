@@ -6,11 +6,7 @@ import {
   Wrench, 
   Eye,
   Settings,
-  Package,
-  Award,
-  CheckCircle,
-  TrendingUp,
-  CircuitBoard
+  Package
 } from 'lucide-react';
 
 export default function Home() {
@@ -42,7 +38,7 @@ export default function Home() {
       title: 'IPC-A-610 - Acceptabilité des assemblages',
       description: 'Critères d\'acceptabilité pour assemblages électroniques',
       duration: '4 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       color: 'blue'
     },
     {
@@ -51,7 +47,7 @@ export default function Home() {
       title: 'IPC J-STD-001 - Exigences de soudage',
       description: 'Requis pour assemblages électriques et électroniques soudés',
       duration: '5 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       color: 'teal'
     },
     {
@@ -60,7 +56,7 @@ export default function Home() {
       title: 'IPC-7711/7721 - Retouche et réparation',
       description: 'Retouche, modification et réparation de cartes électroniques',
       duration: '5 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       color: 'blue'
     }
   ];
@@ -323,38 +319,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Certifications Banner */}
-      <section className="py-16 bg-[#f4f7fb]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl text-[#0a0f1e] mb-3" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 700 }}>
-              Certifications et agréments
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { name: 'IPC Certified', icon: Award },
-              { name: 'ISO 9001', icon: CheckCircle },
-              { name: 'J-STD Approved', icon: CircuitBoard },
-              { name: 'IPC/WHMA', icon: TrendingUp }
-            ].map((cert, idx) => (
-              <div
-                key={idx}
-                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#00a8ff]/40 hover:shadow-lg transition-all text-center group"
-              >
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#00a8ff]/10 to-[#00e5b0]/10 rounded-full flex items-center justify-center group-hover:shadow-[0_0_20px_rgba(0,168,255,0.2)] transition-all">
-                  <cert.icon className="w-8 h-8 text-[#00a8ff]" />
-                </div>
-                <div className="text-[#0a0f1e]" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}>
-                  {cert.name}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-[#00a8ff]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -364,7 +328,7 @@ export default function Home() {
                 Besoin d'une formation IPC ?
               </h2>
               <p className="text-white/90 text-lg">
-                Contactez-nous pour un programme certifiant adapté à vos besoins
+                Contactez-nous pour un programme adapté à vos besoins
               </p>
             </div>
             <div>

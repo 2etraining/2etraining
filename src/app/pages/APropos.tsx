@@ -81,8 +81,8 @@ export default function APropos() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: Users, title: "30 ans d'expertise", description: "Expertise approfondie dans l'industrie électronique/électrique" },
-              { icon: BookOpen, title: 'Formateurs qualifiés', description: "Équipe d'experts IPC expérimentés" },
-              { icon: Award, title: 'Certifications reconnues', description: 'Certifications IPC internationalement reconnues' }
+              { icon: BookOpen, title: 'Formateurs qualifiés', description: "Équipe d'experts en standards IPC expérimentés" },
+              { icon: Award, title: 'Standards IPC', description: 'Formations conformes aux standards IPC internationaux' }
             ].map((fact, idx) => (
               <div key={idx} className="text-center">
                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-[#00a8ff]/10 to-[#00e5b0]/10 rounded-2xl flex items-center justify-center border border-[#00a8ff]/20">
@@ -111,7 +111,7 @@ export default function APropos() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: Target, title: 'Formations IPC', description: 'Programmes certifiants conformes aux standards internationaux IPC' },
+              { icon: Target, title: 'Formations IPC', description: 'Programmes conformes aux standards internationaux IPC, préparant à la certification CIS' },
               { icon: TrendingUp, title: 'Import matériel', description: "Commercialisation d'équipements et moyens pour l'industrie électronique" },
               { icon: Heart, title: "Installation d'ateliers", description: "Travaux d'installation et qualification d'ateliers et espaces de travail électronique et électrique" }
             ].map((service, idx) => (

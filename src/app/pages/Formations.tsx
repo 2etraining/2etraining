@@ -12,7 +12,7 @@ export default function Formations() {
       title: 'IPC-A-610 - Acceptabilité des assemblages électroniques',
       description: 'Le standard le plus largement utilisé pour l\'inspection et la qualité des assemblages électroniques',
       duration: '4 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'blue'
     },
@@ -22,7 +22,7 @@ export default function Formations() {
       title: 'IPC J-STD-001 - Exigences pour assemblages soudés',
       description: 'Standards reconnus pour matériaux, méthodes et critères de vérification pour assemblages soudés de haute qualité',
       duration: '5 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'teal'
     },
@@ -32,7 +32,7 @@ export default function Formations() {
       title: 'IPC-7711/7721 - Retouche, modification et réparation',
       description: 'Procédures de retouche, de réparation et de modification d\'assemblages électroniques',
       duration: '5 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'blue'
     },
@@ -42,7 +42,7 @@ export default function Formations() {
       title: 'IPC/WHMA-A-620 - Exigences pour câbles et harnais',
       description: 'Critères d\'acceptabilité pour câbles, faisceaux de câbles et harnais de câblage',
       duration: '4 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'teal'
     },
@@ -72,7 +72,7 @@ export default function Formations() {
       title: 'IPC-7711 CMS - Retouche composants CMS',
       description: 'Techniques de retouche et réparation pour composants montés en surface',
       duration: '4 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'blue'
     },
@@ -82,7 +82,7 @@ export default function Formations() {
       title: 'IPC J-STD-001 CMS - Soudage composants CMS',
       description: 'Procédures de soudage pour technologie de montage en surface',
       duration: '5 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'teal'
     },
@@ -92,7 +92,7 @@ export default function Formations() {
       title: 'IPC-A-610 + J-STD-001 Combiné',
       description: 'Formation complète inspection et soudage',
       duration: '8 jours',
-      level: 'CIS/CIT',
+      level: 'CIS',
       price: 'Sur devis',
       color: 'blue'
     },
@@ -150,8 +150,8 @@ export default function Formations() {
             </h1>
 
             <p className="text-xl text-[#8892a6] leading-relaxed">
-              Catalogue complet des formations certifiantes aux standards IPC internationaux. 
-              Devenez CIS (Certified IPC Specialist) ou CIT (Certified IPC Trainer) avec nos programmes.
+              Catalogue complet des formations aux standards IPC internationaux. 
+              Préparez votre certification CIS (Certified IPC Specialist) avec nos programmes.
             </p>
           </div>
         </div>
@@ -293,7 +293,7 @@ export default function Formations() {
 
             <div className="bg-gradient-to-br from-[#00a8ff]/10 to-[#00e5b0]/10 rounded-2xl p-8 border border-[#00a8ff]/20">
               <h3 className="text-2xl mb-6 text-[#0a0f1e]" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 700 }}>
-                Niveaux de certification
+                Niveau de certification
               </h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-xl p-4 border border-gray-100">
@@ -302,14 +302,6 @@ export default function Formations() {
                   </div>
                   <p className="text-sm text-[#8892a6]">
                     Niveau opérateur : capacité à exécuter des opérations conformes aux standards IPC
-                  </p>
-                </div>
-                <div className="bg-white rounded-xl p-4 border border-gray-100">
-                  <div className="text-[#00e5b0]  mb-2" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}>
-                    CIT - Certified IPC Trainer
-                  </div>
-                  <p className="text-sm text-[#8892a6]">
-                    Niveau formateur : capacité à former et certifier des CIS dans votre entreprise
                   </p>
                 </div>
               </div>

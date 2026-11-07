@@ -150,7 +150,7 @@ export default function Layout() {
                 </span>
               </Link>
               <p className="text-[#8892a6] text-sm leading-relaxed">
-                Formation et certification aux standards IPC pour l'industrie Electronique/Electrique
+                Formation aux standards IPC pour l'industrie Electronique/Electrique
               </p>
             </div>
 

@@ -64,11 +64,10 @@ export default function Contact() {
 
                 <div className="bg-gradient-to-br from-[#00a8ff]/10 to-[#00e5b0]/10 rounded-2xl p-6 border border-[#00a8ff]/20">
                   <h3 className="text-[#0a0f1e] mb-3" style={{ fontFamily: 'Sora, sans-serif', fontWeight: 600 }}>
-                    Certifications IPC
+                    Formations IPC
                   </h3>
                   <p className="text-sm text-[#8892a6] leading-relaxed">
-                    Centre de formation IPC. Toutes nos formations délivrent des certifications 
-                    reconnues internationalement (CIS/CIT).
+                    Formations aux standards IPC internationaux. Nos programmes préparent aux certifications CIS (Certified IPC Specialist).
                   </p>
                 </div>
               </div>
@@ -237,8 +236,8 @@ export default function Contact() {
                 answer: 'Nos sessions comptent maximum 12-15 participants pour garantir un suivi individuel optimal et permettre à chacun de pratiquer sur le matériel. Pour les formations intra, nous adaptons selon vos besoins.'
               },
               {
-                question: 'Délivrez-vous des certifications officielles ?',
-                answer: 'Oui, toutes nos formations IPC délivrent des certifications CIS (Certified IPC Specialist) ou CIT (Certified IPC Trainer) reconnues internationalement et valables 2 ans.'
+                question: 'Vos formations préparent-elles aux certifications IPC ?',
+                answer: 'Oui, nos formations IPC préparent à la certification CIS (Certified IPC Specialist), reconnue internationalement dans l\'industrie électronique.'
               },
               {
                 question: 'Quels sont les prérequis pour les formations IPC ?',
